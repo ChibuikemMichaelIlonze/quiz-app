@@ -44,7 +44,7 @@ const Quiz = ({ questions }) => {
   };
 
   return (
-    <div className=" w-[500px] bg-white rounded-[4px] my-[30px]  py-[30px] px-[60px] box-border">
+    <div className=" w-[500px] bg-white rounded-[5px] my-[30px]  py-[30px] px-[60px] box-border">
       {!showResult ? (
         <>
           <span className="text-[32px] font-medium text-blue-800">
